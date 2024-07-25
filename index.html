@@ -13,54 +13,255 @@
     rel="stylesheet"
   />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">   
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
+    <!-- Header Section -->
     <header>
-        <div class="top-bar">
-            <p>contact@example.com | (00) -000-000</p>
-            <div class="auth-links">
-                <a href="#">Sign In</a>
-                <a href="#">Sign Up</a>
-                <a href="#">Cart</a>
-                <a href="#">My Account</a>
-            </div>
+        <div class="header-container">
+            <h1>Travel<span>Dream</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav class="navbar">
-            <a href="#" class="logo"><span>Travel</span>Dream</a>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Tours</a></li>
-                <li><a href="#">Packages</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
         <div class="hero">
-            <h1>Traveller for Life.</h1>
-            <p>Live your best moments</p>
-            <div class="search-box">
-                <input type="text" placeholder="Where are you going?">
-                <input type="text" placeholder="Location">
-                <input type="text" placeholder="Tour type">
-                <input type="text" placeholder="Min price">
-                <input type="text" placeholder="Max price">
-                <input type="text" placeholder="Language">
-                <button>Search</button>
-            </div>
+            <h2>Traveller for Life</h2>
+            <p>Live your best moments!</p>
         </div>
+        <div class="container form">
+            <div class="row">
+              <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                <input type="text" placeholder="Enter Your Keywords.." />
+              </div>
+              <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                <input type="text" placeholder="Arrival" />
+              </div>
+              <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                <input type="text" placeholder="Number of room" />
+              </div>
+              <div class="col-12 col-sm-4 col-md-4 col-lg-3">
+                <input type="text" placeholder="Departure" />
+              </div>
+              <div class="col-12 col-sm-4 col-md-4 col-lg-3">
+                <input type="text" placeholder="Adult" />
+              </div>
+              <div class="col-12 col-sm-4 col-md-4 col-lg-3">
+                <input type="text" placeholder="Child" />
+              </div>
+              <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                <button>CHECK AVAILABILITY</button>
+              </div>
+            </div>
+          </div>
+        
     </header>   
-    <section>
-        <div class="main">
-            <div class="text1"><i class="ri-earth-line"></i><h1> best Destination</h1>
-            <p>Travel is the only thing you buy that makes you richer</p></div>
-            <div class="text1"><i class="ri-discount-percent-fill"></i><h1> best Destination</h1>
-                <p>Travel is the only thing you buy that makes you richer</p></div>
-            <div class="text1"><i class="ri-timer-line"></i><h1> best Destination</h1>
-                <p>Travel is the only thing you buy that makes you richer</p></div>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="service-item ">
+           <div><i class="ri-earth-line"></i></div> 
+           <div><h3>Find Best Place</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div> 
+        </div>
+        <div class="service-item">
+            <div><i class="ri-discount-percent-fill"></i></div> 
+          <div> <h3>Best Price Guarantee</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div> 
+        </div>
+        <div class="service-item">
+            <div><i class="ri-timer-line"></i></div> 
+           <div><h3>24/7 Customer Support</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div> 
         </div>
     </section>
+    
+    <!-- Get discount Section -->
+<section>
+    <div class="discount">
+        <div class="content">
+            <h1>Get up to 50% discount<br>by joining us within 11 March</h1>
+            <div class="countdown">
+                <div class="time">
+                    <span class="number">82</span>
+                    <span class="label">Days</span>
+                </div>
+                <div class="time">
+                    <span class="number">03</span>
+                    <span class="label">Hours</span>
+                </div>
+                <div class="time">
+                    <span class="number">12</span>
+                    <span class="label">Minutes</span>
+                </div>
+                <div class="time">
+                    <span class="number">31</span>
+                    <span class="label">Seconds</span>
+                </div>
+            </div>
+            <button class="join-btn">Join Us</button>
+        </div>
+    </div>
+</section>
+
+    <!-- Top Destinations Section -->
+    <section class="top-destinations">
+        <h2>Top Destinations</h2>
+        <div class="destinations-container">
+            <div class="destination">
+                <img src="img/photo-1650747858910-5d48a4116296.avif" alt="Bhutan">
+                <h4>Bhutan</h4>
+            </div>
+            <div class="destination">
+                <img src="img/japan.avif" alt="Japan">
+                <h4>Japan</h4>
+            </div>
+            <div class="destination">
+                <img src="img/nepal.avif" alt="Nepal">
+                <h4>Nepal</h4>
+            </div>
+        </div>
+    </section>
+    <!-- Get discount Section -->
+    <section>
+        <div class="save">
+                <div class="thc">
+                  <h1>Fresh Investment Solutions!</h1>
+                    <br>
+                    <ul>
+                        <li>
+                            Lorem ipsum dolor, sit amet consectetursit amet consectetur 
+                        </li>
+                        <li>
+                            Lorem ipsum dolor, sit amet consectetur 
+                        </li>
+                        <li>
+                            Lorem ipsum dolor, sit amet consectetur 
+                        </li>
+                        <li>
+                            Lorem ipsum dolor, sit amet consectetur 
+                        </li>
+                    </ul>
+                    <button class="button">Learn more</button>
+                </div>
+                <div class="thc2">
+                  <h1>Fresh Investment Solutions!</h1>
+                    <br>
+                    <ul>
+                        <li>
+                            Lorem ipsum dolor, sit amet consectetursit amet consectetur 
+                        </li>
+                        <li>
+                            Lorem ipsum dolor, sit amet consectetur 
+                        </li>
+                        <li>
+                            Lorem ipsum dolor, sit amet consectetur 
+                        </li>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet fugit quia quisquam eius eaque provident  </p>
+                    </ul>
+                    <button class="button">Learn more</button>
+                </div>
+            </div>
+    </section>
+    <!-- Featured Packages Section -->
+    <section class="featured-packages">
+        <h2>Featured Packages</h2>
+        <div class="packages-container">
+            <div class="package">
+                <img src="img/thailand.avif" alt="Thailand City Tour">
+                <h3>Thailand City Tour</h3>
+                <p>$120</p>
+                <button>Explore</button>
+            </div>
+            <div class="package">
+                <img src="img/londan.avif" alt="London City Tour">
+                <h3>London City Tour</h3>
+                <p>$120</p>
+                <button>Explore</button>
+            </div>
+            <div class="package">
+                <img src="img/singapore.avif" alt="Singapore City Tour">
+                <h3>Singapore City Tour</h3>
+                <p>$120</p>
+                <button>Explore</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Reviews Section -->
+    <section class="clients-reviews">
+        <h2>Clients Reviews</h2>
+        <div class="reviews-container">
+            <div class="review">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+                <h4>- John Doe</h4>
+            </div>
+            <div class="review">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+                <h4>- Jane Doe</h4>
+            </div>
+            <div class="review">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+                <h4>- Mike Smith</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Blogs Section -->
+    <section class="latest-blogs">
+        <h2>Latest Blogs</h2>
+        <div class="blogs-container">
+            <div class="blog">
+                <img src="img/japan.avif" alt="Blog 1">
+                <h4>Blog Title 1</h4>
+                <p>July 25, 2024</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="blog">
+                <img src="img/londan.avif" alt="Blog 2">
+                <h4>Blog Title 2</h4>
+                <p>July 24, 2024</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="blog">
+                <img src="img/nepal.avif" alt="Blog 3">
+                <h4>Blog Title 3</h4>
+                <p>July 23, 2024</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <div class="newsletter">
+                <h3>Subscribe to our newsletter for updates</h3>
+                <input type="email" placeholder="Enter your email">
+                <button>Subscribe</button>
+            </div>
+            <div class="footer-info">
+                <p>© 2024 TravelDream. All rights reserved.</p>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
