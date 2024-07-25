@@ -5,7 +5,18 @@ body, html {
     color: #1a1818f8;
     line-height: 1.6;
 }
+.top-bar {
+    background:transparent;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
 
+.auth-links a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
 a {
     text-decoration: none;
     color: #333;
@@ -493,6 +504,10 @@ footer {
 .footer-info a {
     color: white;
     transition: color 0.3s ease;
+}
+
+.footer-info a:hover {
+    color: #007bff;
 }
 
 .footer-info a:hover {
